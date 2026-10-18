@@ -1,8 +1,8 @@
 # Zeek-DNS-Investigation-Lab
 ## Overview
-Detection engineering is the process of designing, testing, validating, and improving security detection logic so that suspicious activities can be identified from available telemetry.
-In this lab, the focus is on developing and validating a Wazuh detection for Windows process-creation activity collected through Sysmon.
-The goal is not simply to generate an event and confirm that it appears in a dashboard. We need to understand what activity the detection is intended to identify, which event fields support the detection, how the rule behaves during testing, and whether its results are accurate.
+The Domain Name System (DNS) translates domain names, such as example.com, into information that computers use to communicate over networks, commonly IP addresses.
+From a SOC analyst's perspective, DNS logs help investigate which domains a host queried, what responses it received, and whether the observed activity warrants further investigation.
+Zeek analyzes network traffic and records DNS activity in dns.log when it observes DNS transactions covered by its enabled protocol analysis.
 
 This project documents a hands-on DNS investigation using Zeek 8.0.10 and an offline packet capture in Ubuntu 24.04 running under WSL.
 
